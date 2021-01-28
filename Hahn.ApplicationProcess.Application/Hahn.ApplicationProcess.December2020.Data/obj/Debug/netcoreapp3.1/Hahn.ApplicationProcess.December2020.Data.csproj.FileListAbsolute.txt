@@ -1,0 +1,9 @@
+D:\Iman\MyGithub\Hahn\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Data\bin\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Data.deps.json
+D:\Iman\MyGithub\Hahn\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Data\bin\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Data.dll
+D:\Iman\MyGithub\Hahn\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Data\bin\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Data.pdb
+D:\Iman\MyGithub\Hahn\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Data\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Data.csprojAssemblyReference.cache
+D:\Iman\MyGithub\Hahn\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Data\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Data.AssemblyInfoInputs.cache
+D:\Iman\MyGithub\Hahn\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Data\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Data.AssemblyInfo.cs
+D:\Iman\MyGithub\Hahn\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Data\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Data.csproj.CoreCompileInputs.cache
+D:\Iman\MyGithub\Hahn\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Data\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Data.dll
+D:\Iman\MyGithub\Hahn\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Data\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Data.pdb

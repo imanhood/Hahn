@@ -1,0 +1,12 @@
+D:\Iman\MyGithub\Hahn\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Domain\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Domain.csprojAssemblyReference.cache
+D:\Iman\MyGithub\Hahn\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Domain\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Domain.AssemblyInfoInputs.cache
+D:\Iman\MyGithub\Hahn\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Domain\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Domain.AssemblyInfo.cs
+D:\Iman\MyGithub\Hahn\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Domain\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Domain.csproj.CoreCompileInputs.cache
+D:\Iman\MyGithub\Hahn\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Domain\bin\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Domain.deps.json
+D:\Iman\MyGithub\Hahn\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Domain\bin\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Domain.dll
+D:\Iman\MyGithub\Hahn\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Domain\bin\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Domain.pdb
+D:\Iman\MyGithub\Hahn\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Domain\bin\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Data.dll
+D:\Iman\MyGithub\Hahn\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Domain\bin\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Data.pdb
+D:\Iman\MyGithub\Hahn\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Domain\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Domain.csproj.CopyComplete
+D:\Iman\MyGithub\Hahn\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Domain\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Domain.dll
+D:\Iman\MyGithub\Hahn\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Domain\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Domain.pdb
