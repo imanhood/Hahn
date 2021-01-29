@@ -170,7 +170,7 @@
               "target": "Package",
               "version": "[10.1.1, )"
             },
-            "FluentValidation": {
+            "FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[9.4.0, )"
             },

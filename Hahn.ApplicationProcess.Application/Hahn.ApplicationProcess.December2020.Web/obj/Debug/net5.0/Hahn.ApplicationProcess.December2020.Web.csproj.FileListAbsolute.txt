@@ -38,3 +38,5 @@ D:\Iman\MyGithub\Hahn\Hahn.ApplicationProcess.Application\Hahn.ApplicationProces
 D:\Iman\MyGithub\Hahn\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Web\bin\Debug\net5.0\Hahn.ApplicationProcess.December2020.Domain.pdb
 D:\Iman\MyGithub\Hahn\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Web\bin\Debug\net5.0\Hahn.ApplicationProcess.December2020.Data.pdb
 D:\Iman\MyGithub\Hahn\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Web\bin\Debug\net5.0\FluentValidation.dll
+D:\Iman\MyGithub\Hahn\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Web\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+D:\Iman\MyGithub\Hahn\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Web\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll

@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "03vuzE1kyFtuP/gntVCTg8Z2jM7kzTtbftmSYq1rEagPrWBvHHsU1qNk4Kwypy1JhhvuVTEAtOahdJHj4jPRiA==",
+  "dgSpecHash": "oHnwHY19xPtvbtsS4NA1t4/KVasek/a7ujik4FpauJ7/GuSBXtXTwv3h6bwIe/f9SoNWYEwqI+pa1Sf8wUfGig==",
   "success": true,
   "projectFilePath": "D:\\Iman\\MyGithub\\Hahn\\Hahn.ApplicationProcess.Application\\Hahn.ApplicationProcess.December2020.Web\\Hahn.ApplicationProcess.December2020.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Meliman-Work\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Meliman-Work\\.nuget\\packages\\fluentvalidation\\9.4.0\\fluentvalidation.9.4.0.nupkg.sha512",
+    "C:\\Users\\Meliman-Work\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.4.0\\fluentvalidation.aspnetcore.9.4.0.nupkg.sha512",
+    "C:\\Users\\Meliman-Work\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.4.0\\fluentvalidation.dependencyinjectionextensions.9.4.0.nupkg.sha512",
     "C:\\Users\\Meliman-Work\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Meliman-Work\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.2\\microsoft.entityframeworkcore.5.0.2.nupkg.sha512",
     "C:\\Users\\Meliman-Work\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.2\\microsoft.entityframeworkcore.abstractions.5.0.2.nupkg.sha512",

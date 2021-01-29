@@ -33,11 +33,11 @@ namespace Hahn.ApplicationProcess.December2020.Web.Controllers {
         [HttpGet]
         public async Task<IActionResult> Get(int? id) {
             if(id == null) {
-                return BadRequest("Id must be submited");
+                return BadRequest("ID must be submited");
             }
             var entity = await _service.GetByIdAsync(id: id.Value);
             if(entity == null) {
-                return BadRequest("Id is not valid");
+                return BadRequest("ID does not exist");
             }
             return Ok(_mapper.Map<TViewModel>(entity));
         }
@@ -52,25 +52,29 @@ namespace Hahn.ApplicationProcess.December2020.Web.Controllers {
         [HttpPut]
         public IActionResult Edit([FromBody] TBindingModel input) {
             if(input.ID == null) {
-                return BadRequest("Id must be submited");
+                return BadRequest("ID must be submited");
             }
             if(!ModelState.IsValid) {
                 return ValidateMessage();
             }
-            var entity = _service.Edit(_mapper.Map<TEntity>(input));
-            return Ok(entity.ID);
+            var entity = _service.GetById(input.ID.Value);
+            if(entity == null) {
+                return BadRequest("ID does not exist");
+            }
+            _service.Edit(_mapper.Map<TEntity>(input));
+            return Ok(input.ID);
         }
         [HttpDelete]
         public IActionResult Remove(int? id) {
             if(id == null) {
-                return BadRequest("Id must be submited");
+                return BadRequest("ID must be submited");
             }
             if(!ModelState.IsValid) {
                 return ValidateMessage();
             }
             var entity = _service.GetById(id: id.Value);
             if(entity == null) {
-                return BadRequest("Id is not valid");
+                return BadRequest("ID does not exist");
             }
             _service.Remove(entity);
             return Ok();

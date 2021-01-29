@@ -24,6 +24,35 @@
           "lib/net5.0/FluentValidation.dll": {}
         }
       },
+      "FluentValidation.AspNetCore/9.4.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "9.4.0",
+          "FluentValidation.DependencyInjectionExtensions": "9.4.0"
+        },
+        "compile": {
+          "lib/net5.0/FluentValidation.AspNetCore.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/FluentValidation.AspNetCore.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "FluentValidation.DependencyInjectionExtensions/9.4.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "9.4.0",
+          "Microsoft.Extensions.Dependencyinjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
@@ -349,6 +378,38 @@
         "lib/net5.0/FluentValidation.xml",
         "lib/netstandard2.0/FluentValidation.dll",
         "lib/netstandard2.0/FluentValidation.xml"
+      ]
+    },
+    "FluentValidation.AspNetCore/9.4.0": {
+      "sha512": "PxpyAbEDyKK4ERVETidQokeedg4Ncxq6dKJdqiWSZsyaCbyzlb8x4DTPX4fKO4Xw/Xm3ANT7jP3lgDJ0eF029g==",
+      "type": "package",
+      "path": "fluentvalidation.aspnetcore/9.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluent-validation-icon.png",
+        "fluentvalidation.aspnetcore.9.4.0.nupkg.sha512",
+        "fluentvalidation.aspnetcore.nuspec",
+        "lib/net5.0/FluentValidation.AspNetCore.dll",
+        "lib/net5.0/FluentValidation.AspNetCore.xml",
+        "lib/netcoreapp2.1/FluentValidation.AspNetCore.dll",
+        "lib/netcoreapp2.1/FluentValidation.AspNetCore.xml",
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll",
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.xml"
+      ]
+    },
+    "FluentValidation.DependencyInjectionExtensions/9.4.0": {
+      "sha512": "XRGaMGh+Abyr83fQi4qNBwwwcVIG6EpjUM+p8sD84sIN/byXmuZLyVFRwqa0vVMNRsERkxuxmZIKNU824TfOUg==",
+      "type": "package",
+      "path": "fluentvalidation.dependencyinjectionextensions/9.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluent-validation-icon.png",
+        "fluentvalidation.dependencyinjectionextensions.9.4.0.nupkg.sha512",
+        "fluentvalidation.dependencyinjectionextensions.nuspec",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml"
       ]
     },
     "Microsoft.CSharp/4.7.0": {
@@ -965,7 +1026,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "AutoMapper >= 10.1.1",
-      "FluentValidation >= 9.4.0",
+      "FluentValidation.AspNetCore >= 9.4.0",
       "Hahn.ApplicationProcess.December2020.Domain >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
@@ -1017,7 +1078,7 @@
             "target": "Package",
             "version": "[10.1.1, )"
           },
-          "FluentValidation": {
+          "FluentValidation.AspNetCore": {
             "target": "Package",
             "version": "[9.4.0, )"
           },
