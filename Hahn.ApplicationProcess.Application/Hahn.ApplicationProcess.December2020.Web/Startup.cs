@@ -1,3 +1,6 @@
+using System;
+using System.Reflection;
+using System.IO;
 using AutoMapper;
 using FluentValidation;
 using FluentValidation.AspNetCore;
@@ -12,7 +15,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -30,8 +32,17 @@ namespace Hahn.ApplicationProcess.December2020.Web {
             services.AddMvcCore().AddFluentValidation();
             services.AddControllers();
             services.AddCustomServices();
-            services.AddSwaggerGen(c => {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Hahn.ApplicationProcess.December2020.Web", Version = "v1" });
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo {
+                    Version = "v1",
+                    Title = "Hahn.ApplicationProcess.December2020.Web",
+                    Description = "Iman Kazemi test application",
+                    Contact = new OpenApiContact {
+                        Name = "Iman Kazemi",
+                        Email = "imankazemi@hotmail.com"
+                    }
+                });
             });
             var mapperConfig = new MapperConfiguration(mc => {
                 foreach(var p in System.Reflection.Assembly.GetExecutingAssembly().GetTypes()

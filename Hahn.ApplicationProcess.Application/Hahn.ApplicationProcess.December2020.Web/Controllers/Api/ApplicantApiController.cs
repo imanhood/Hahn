@@ -10,14 +10,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-namespace Hahn.ApplicationProcess.December2020.Web.Controllers {
-    [ApiController]
-    [Route("[controller]")]
-    public class ApplicantController : BaseController<ApplicantController, ApplicantBindingModel, ApplicantViewModel, Applicant, IApplicantService> {
-        public ApplicantController(
-                ILogger<ApplicantController> logger,
+namespace Hahn.ApplicationProcess.December2020.Web.Controllers.Api {
+    public class ApplicantApiController : BaseApiController<ApplicantApiController, ApplicantBindingModel, ApplicantViewModel, Applicant, IApplicantService> {
+        public ApplicantApiController(
+                ILogger<ApplicantApiController> logger,
                 IApplicantService applicantService,
                 IMapper mapper
-        ) : base(logger, applicantService, mapper) {}
+        ) : base(logger, applicantService, mapper, "Applicants") {}
     }
 }
